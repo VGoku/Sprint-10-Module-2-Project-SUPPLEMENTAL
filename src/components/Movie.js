@@ -57,7 +57,7 @@ const Movie = (props) => {
 
 const mapStateToProbs = (state)=> {
     return({
-        movies:state.movies
+        movies:state.movieReducer.movies
     });
 }
 
