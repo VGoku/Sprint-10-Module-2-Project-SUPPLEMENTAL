@@ -7,7 +7,7 @@ export const toggleFavorites = () => {
     return({type: TOGGLE_FAVORITES});
 };
 
-export const addFavorites = (movie) => {
+export const addFavorite = (movie) => {
     return({type: ADD_FAVORITE, payload:movie});
     
 };
